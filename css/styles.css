@@ -1,0 +1,193 @@
+body {
+  /*grey is my fallback background-color*/
+  background-color: grey;
+  background-color: HSL(270, 20%, 96%);
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.left-purple {
+  background-color: #D733FF;
+  background-color: HSL(276, 55%, 52%);
+  background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-bottom-left-radius: 15rem;
+  border-bottom-right-radius: 25rem;
+  height: 840px;
+  position: relative;
+  right: 2.5rem;
+  width: 25rem;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.left {
+  left: 1.5625rem;
+  position: relative;
+  bottom: 5rem;
+  transform: rotate(135deg);
+}
+
+.phone-exterior {
+  background-color: white;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.5625rem;
+  height: 43.75rem;
+  left: 18.75rem;
+  position: absolute;
+  padding-left: 9.375rem;
+  top: 120px;
+  width: 13.125rem;
+}
+
+.phone-interior {
+  background-color: grey;
+  background-color: HSL(270, 20%, 96%);
+  border-radius: 1.25rem;
+  height: 42.5rem;
+  padding-right: 8.75rem;
+  position: absolute;
+  right: 0.625rem;
+  top: 0.625rem;
+  width: 12.5rem;
+}
+
+.final {
+  position: relative;
+  top: 90px;
+}
+
+.top-purple {
+  background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+  border-radius: 1.25rem;
+  bottom: 1.25rem;
+  height: 4.375rem;
+  padding: 0 13.125rem 1.25rem 0;
+  position: relative;
+  width: 8.125rem;
+}
+
+.semi-top {
+  background-color: white;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 3.125rem;
+  bottom: 9.6875rem;
+  height: 1.875rem;
+  left: 4.375rem;
+  position: relative;
+  width: 12.5rem;
+}
+
+.profile {
+  bottom: 8.375rem;
+  height: 1.8125rem;
+  left: 2.8125rem;
+  position: relative;
+  width: 1.875rem;
+}
+
+.name {
+  color: white;
+  color: hsl(0, 0%, 100%);
+  left: 5.3125rem;
+  position: relative;
+  top: 2.1875rem;
+  width: 8.75rem;
+}
+
+.circle {
+  border-color: white;
+  border-color: hsl(0, 0%, 100%);
+  border-radius: 6.25rem;
+  border-style: solid;
+  bottom: 3.4375rem;
+  height: 1.8125rem;
+  left: 2.6875rem;
+  padding: 0 0.0625rem;
+  position: relative;
+  width: 1.8125rem;
+}
+
+.available {
+  color: white;
+  color: hsl(0, 0%, 100%);
+  border-color: white;
+  border-color: hsl(0, 0%, 100%);
+  border-style: none dotted none none;
+  border-width: 0.3125rem;
+  left: 5.3125rem;
+  padding: 0.3125rem 0;
+  position: relative;
+  top: 0.3125rem;
+  width: 14.0625rem;
+}
+
+.messagesLeft {
+  color: violet;
+  color: hsl(276, 55%, 52%);
+}
+
+.purpleText {
+  background-color: grey;
+  background-color: hsl(206, 6%, 79%);
+  border-radius: 0.9375rem;
+  bottom: 6.25rem;
+  left: 0.625rem;
+  margin-bottom: 0.625rem;
+  padding: 0.0625rem 0.625rem;
+  position: relative;
+  width: 13.4375rem;
+}
+
+.messagesRight {
+  left: 90px;
+  position: relative;
+  top: 155px;
+}
+
+.blackTextOne {
+  background-color: white;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  position: relative;
+  width: 240px;
+}
+
+.blackTextTwo {
+  background-color: white;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  left: 90px;
+  position: relative;
+  width: 150px;
+}
+
+.afterPictureText {
+  padding: 7px;
+}
+
+.lastQuestion {
+  padding: 5px;
+}
+
+.imagesRow {
+  display: inline-block;
+  position: relative;
+  top: 10rem;
+  width: 21.25rem;
+}
+
+.dog {
+  border-radius: 0.625rem;
+  height: 3.75rem;
+  left: 125px;
+  margin: auto 0.1875rem;
+  position: relative;
+  top: 5px;
+  width: 3.75rem;
+}
