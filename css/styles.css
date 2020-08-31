@@ -5,6 +5,7 @@ body {
   font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   margin: 0;
+  width: 90rem;
 }
 
 .left-purple {
@@ -13,7 +14,7 @@ body {
   background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
   border-bottom-left-radius: 15rem;
   border-bottom-right-radius: 25rem;
-  height: 840px;
+  height: 58.75rem;
   position: relative;
   right: 2.5rem;
   width: 25rem;
@@ -21,9 +22,9 @@ body {
 
 .arrow {
   border: solid white;
-  border-width: 0 3px 3px 0;
+  border-width: 0 0.1875rem 0.1875rem 0;
   display: inline-block;
-  padding: 3px;
+  padding: 0.1875rem;
 }
 
 .left {
@@ -37,11 +38,11 @@ body {
   background-color: white;
   background-color: hsl(0, 0%, 100%);
   border-radius: 1.5625rem;
-  height: 43.75rem;
+  height: 49.0625rem;
   left: 18.75rem;
   position: absolute;
-  padding-left: 9.375rem;
-  top: 120px;
+  padding-left: 12.5rem;
+  top: 7.5rem;
   width: 13.125rem;
 }
 
@@ -49,8 +50,8 @@ body {
   background-color: grey;
   background-color: HSL(270, 20%, 96%);
   border-radius: 1.25rem;
-  height: 42.5rem;
-  padding-right: 8.75rem;
+  height: 47.5rem;
+  padding-right: 11.875rem;
   position: absolute;
   right: 0.625rem;
   top: 0.625rem;
@@ -59,7 +60,7 @@ body {
 
 .final {
   position: relative;
-  top: 90px;
+  top: 5.625rem;
 }
 
 .top-purple {
@@ -69,7 +70,7 @@ body {
   height: 4.375rem;
   padding: 0 13.125rem 1.25rem 0;
   position: relative;
-  width: 8.125rem;
+  width: 11.25rem;
 }
 
 .semi-top {
@@ -78,15 +79,15 @@ body {
   border-radius: 3.125rem;
   bottom: 9.6875rem;
   height: 1.875rem;
-  left: 4.375rem;
+  left: 5.625rem;
   position: relative;
   width: 12.5rem;
 }
 
 .profile {
-  bottom: 8.375rem;
+  bottom: 8.4375rem;
   height: 1.8125rem;
-  left: 2.8125rem;
+  left: 2.875rem;
   position: relative;
   width: 1.875rem;
 }
@@ -124,7 +125,7 @@ body {
   padding: 0.3125rem 0;
   position: relative;
   top: 0.3125rem;
-  width: 14.0625rem;
+  width: 17.1875rem;
 }
 
 .messagesLeft {
@@ -134,7 +135,7 @@ body {
 
 .purpleText {
   background-color: grey;
-  background-color: hsl(206, 6%, 79%);
+  background-color: hsl(206, 6%, 90%);
   border-radius: 0.9375rem;
   bottom: 6.25rem;
   left: 0.625rem;
@@ -145,34 +146,37 @@ body {
 }
 
 .messagesRight {
-  left: 90px;
+  color: violet;
+  color: hsl(271, 15%, 43%);
+  left: 11.25rem;
   position: relative;
-  top: 155px;
+  top: 9.6875rem;
 }
 
 .blackTextOne {
   background-color: white;
   background-color: hsl(0, 0%, 100%);
-  border-radius: 10px;
+  border-radius: 0.625rem;
   position: relative;
-  width: 240px;
+  right: 1.875rem;
+  width: 14.6875rem;
 }
 
 .blackTextTwo {
   background-color: white;
   background-color: hsl(0, 0%, 100%);
-  border-radius: 10px;
-  left: 90px;
+  border-radius: 0.625rem;
+  left: 3.4375rem;
   position: relative;
-  width: 150px;
+  width: 9.0625rem;
 }
 
 .afterPictureText {
-  padding: 7px;
+  padding: 0.1875rem;
 }
 
 .lastQuestion {
-  padding: 5px;
+  padding: 0.3125rem;
 }
 
 .imagesRow {
@@ -184,10 +188,122 @@ body {
 
 .dog {
   border-radius: 0.625rem;
-  height: 3.75rem;
-  left: 125px;
+  height: 4.0625rem;
+  left: 8.4375rem;
   margin: auto 0.1875rem;
   position: relative;
-  top: 5px;
-  width: 3.75rem;
+  top: 0.3125rem;
+  width: 4.6875rem;
+}
+
+.bottom {
+  background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  border-radius: 0.625rem;
+  height: 2.5rem;
+  margin: 0.9375rem;
+  padding: 0.3125rem;
+  position: relative;
+  top: 16.25rem;
+  width: 16.875rem;
+}
+
+.bottomText {
+  bottom: 1.5625rem;
+  color: white;
+  color: hsl(0, 0%, 100%);
+  left: 2.5rem;
+  position: relative;
+}
+
+.Price {
+  bottom: 4.375rem;
+  color: white;
+  color: hsl(0, 0%, 100%);
+  left: 12.5rem;
+  position: relative;
+}
+
+.radioButton {
+  background-color: purple;
+  background-color: hsl(293, 100%, 63%);
+  border-color: purple;
+  border-color: hsl(289, 100%, 72%);
+  border-radius: 100%;
+  border-style: solid;
+  height: 0.9375rem;
+  left: 0.625rem;
+  position: relative;
+  top: 0.5625rem;
+  width: 0.9375rem;
+}
+
+.messageField {
+  background-color: white;
+  border-radius: 1.5625rem;
+  height: 1.25rem;
+  left: 0.625rem;
+  padding: 0.9375rem;
+  position: relative;
+  top: 16.25rem;
+  width: 20rem;
+}
+
+.submitButton {
+  background-color: violet;
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 100%;
+  border-style: solid;
+  height: 2.1875rem;
+  left: 20.625rem;
+  position: relative;
+  top: 12.5rem;
+  width: 2.1875rem;
+}
+
+.right {
+  border-radius: 0.125rem;
+  height: 0.3125rem;
+  left: 0.5rem;
+  position: relative;
+  top: 0.625rem;
+  transform: rotate(310deg);
+  width: 0.3125rem;
+}
+
+.messageField {
+  color: grey;
+  padding-left: 1.875rem;
+  position: relative;
+}
+
+.textDescription {
+  left: 17.8125rem;
+  position: relative;
+  top: 16.25rem;
+  width: 28.125rem;
+}
+
+.simpleBooking {
+  color: purple;
+  color: hsl(271, 36%, 24%);
+}
+
+#paragraph {
+  color: grey;
+  color: hsl(270, 7%, 64%);
+}
+
+.rightPurple {
+  background-color: grey;
+  background-color: hsl(270, 20%, 94%);
+  border-top-left-radius: 21.875rem;
+  bottom: 9.375rem;
+  height: 50rem;
+  left: 41.875rem;
+  margin-right: 0;
+  position: relative;
+  width: 16.875rem;
+  /*Using the below z-index made the content written in the other div go on top
+  of the almost invisible shape on the right of the screen.*/
+  z-index: -1;
 }
